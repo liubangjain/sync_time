@@ -1,7 +1,7 @@
 #!/bin/bash
 #将该脚本加入crontab定时任务，命令：crontab -e
 #日志目录
-#LOG_NAME=/opt/sync-time/sync-time.log
+LOG_NAME=/opt/sync-time/sync-time.log
 
 echo "同步北京时间 start"
 before=$(date "+%Y-%m-%d %H:%M:%S")
